@@ -1,0 +1,1 @@
+self.__RSC_CSS_MANIFEST={"__entry_css__":{"/Users/aadilahmed/Desktop/wannabuidlproj/wblanding/app/page":["/Users/aadilahmed/Desktop/wannabuidlproj/wblanding/styles/globals.css"]},"/Users/aadilahmed/Desktop/wannabuidlproj/wblanding/app/layout.js":["/Users/aadilahmed/Desktop/wannabuidlproj/wblanding/styles/globals.css"]}
