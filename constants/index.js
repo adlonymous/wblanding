@@ -2,48 +2,48 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'The Hogwarts',
+    title: 'Developer Profiles',
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
-    title: 'The Upside Down',
+    title: 'Project Posts',
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
-    title: 'Kadirojo Permai',
+    title: 'Ecosystem Project Feeds',
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
-    title: 'Paradise Island',
+    title: 'Community Feeds',
   },
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    title: 'Hawkins Labs',
+    title: 'Hackathon Feeds',
   },
 ];
 
 export const startingFeatures = [
-  'Find a world that suits you and you want to enter',
-  'Enter the world by reading basmalah to be safe',
-  'No need to beat around the bush, just stay on the gas and have fun',
+  'Create a Profile on WannaBuidl',
+  'Explore Project Posts or Create your own',
+  'Choose the project you\'re interested in and contact the Founder or Community!',
 ];
 
 export const newFeatures = [
   {
     imgUrl: '/vrpano.svg',
-    title: 'A new world',
+    title: 'On-chain Profiles',
     subtitle:
-        'we have the latest update with new world for you to try never mind',
+        'Demonstrate your proof-of-work and expertise through your profile',
   },
   {
     imgUrl: '/headset.svg',
-    title: 'More realistic',
+    title: 'Project Aggregation',
     subtitle:
-        'In the latest update, your eyes are narrow, making the world more realistic than ever',
+        'Find countless projects and get all the information you need in one place',
   },
 ];
 
@@ -72,6 +72,7 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
+    link: 'https://twitter.com/WannaBuidl',
   },
   {
     name: 'linkedin',
