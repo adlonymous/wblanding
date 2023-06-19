@@ -43,7 +43,7 @@ export const newFeatures = [
     imgUrl: '/headset.svg',
     title: 'Project Aggregation',
     subtitle:
-        'Find countless projects and get all the information you need in one place',
+        'Find countless projects and get all the information you need in one place', 
   },
 ];
 
