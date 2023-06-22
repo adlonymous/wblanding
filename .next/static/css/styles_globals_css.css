@@ -530,13 +530,9 @@ video {
   margin-left: 6px;
   margin-right: 6px;
 }
-.mx-6 {
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
-}
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
+.mx-\[10px\] {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .mt-\[16px\] {
   margin-top: 16px;
@@ -644,14 +640,23 @@ video {
 .h-\[38px\] {
   height: 38px;
 }
+.h-\[44px\] {
+  height: 44px;
+}
+.h-\[144px\] {
+  height: 144px;
+}
 .min-h-\[70vh\] {
   min-height: 70vh;
 }
 .min-h-\[210px\] {
   min-height: 210px;
 }
-.min-h-screen {
-  min-height: 100vh;
+.min-h-\[160px\] {
+  min-height: 160px;
+}
+.min-h-\[230px\] {
+  min-height: 230px;
 }
 .w-full {
   width: 100%;
@@ -689,6 +694,9 @@ video {
 .w-\[100\%\] {
   width: 100%;
 }
+.w-\[80px\] {
+  width: 80px;
+}
 .min-w-\[170px\] {
   min-width: 170px;
 }
@@ -722,15 +730,6 @@ video {
 .cursor-pointer {
   cursor: pointer;
 }
-.grid-flow-row {
-  grid-auto-flow: row;
-}
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-.grid-rows-1 {
-  grid-template-rows: repeat(1, minmax(0, 1fr));
-}
 .flex-row {
   flex-direction: row;
 }
@@ -739,9 +738,6 @@ video {
 }
 .flex-wrap {
   flex-wrap: wrap;
-}
-.content-center {
-  align-content: center;
 }
 .items-start {
   align-items: flex-start;
@@ -760,9 +756,6 @@ video {
 }
 .justify-between {
   justify-content: space-between;
-}
-.justify-around {
-  justify-content: space-around;
 }
 .gap-8 {
   gap: 2rem;
@@ -816,6 +809,9 @@ video {
 }
 .border-\[9px\] {
   border-width: 9px;
+}
+.border-\[209px\] {
+  border-width: 209px;
 }
 .border-white {
   --tw-border-opacity: 1;
@@ -1112,6 +1108,16 @@ video {
     margin-right: 0.5rem;
   }
 
+  .sm\:mx-\[2px\] {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .sm\:mx-\[5px\] {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
   .sm\:-mt-\[70px\] {
     margin-top: -70px;
   }
@@ -1128,12 +1134,28 @@ video {
     height: 48px;
   }
 
+  .sm\:h-\[148px\] {
+    height: 148px;
+  }
+
+  .sm\:h-\[60px\] {
+    height: 60px;
+  }
+
   .sm\:w-\[155px\] {
     width: 155px;
   }
 
   .sm\:w-\[80px\] {
     width: 80px;
+  }
+
+  .sm\:w-\[810px\] {
+    width: 810px;
+  }
+
+  .sm\:w-\[180px\] {
+    width: 180px;
   }
 
   .sm\:max-w-\[250px\] {
@@ -1225,12 +1247,84 @@ video {
     height: 108px;
   }
 
+  .md\:h-\[1108px\] {
+    height: 1108px;
+  }
+
+  .md\:h-\[100px\] {
+    height: 100px;
+  }
+
+  .md\:h-\[109px\] {
+    height: 109px;
+  }
+
+  .md\:h-\[1000px\] {
+    height: 1000px;
+  }
+
+  .md\:h-\[90px\] {
+    height: 90px;
+  }
+
+  .md\:h-\[50px\] {
+    height: 50px;
+  }
+
+  .md\:h-\[80px\] {
+    height: 80px;
+  }
+
+  .md\:h-\[97px\] {
+    height: 97px;
+  }
+
+  .md\:h-\[120px\] {
+    height: 120px;
+  }
+
+  .md\:h-\[970px\] {
+    height: 970px;
+  }
+
+  .md\:h-\[110px\] {
+    height: 110px;
+  }
+
+  .md\:h-\[105px\] {
+    height: 105px;
+  }
+
+  .md\:h-\[150px\] {
+    height: 150px;
+  }
+
+  .md\:h-\[130px\] {
+    height: 130px;
+  }
+
+  .md\:h-\[125px\] {
+    height: 125px;
+  }
+
+  .md\:h-\[122px\] {
+    height: 122px;
+  }
+
   .md\:w-\[270px\] {
     width: 270px;
   }
 
   .md\:w-\[212px\] {
     width: 212px;
+  }
+
+  .md\:w-\[2121px\] {
+    width: 2121px;
+  }
+
+  .md\:w-\[2120px\] {
+    width: 2120px;
   }
 
   .md\:flex-row {
@@ -1241,12 +1335,28 @@ video {
     border-width: 18px;
   }
 
+  .md\:border-\[1800px\] {
+    border-width: 1800px;
+  }
+
+  .md\:border-\[108px\] {
+    border-width: 108px;
+  }
+
   .md\:text-\[64px\] {
     font-size: 64px;
   }
 
   .md\:text-\[100px\] {
     font-size: 100px;
+  }
+
+  .md\:text-\[120px\] {
+    font-size: 120px;
+  }
+
+  .md\:text-\[110px\] {
+    font-size: 110px;
   }
 
   .md\:leading-\[114\.4px\] {
@@ -1270,6 +1380,14 @@ video {
 
   .lg\:h-\[610px\] {
     height: 610px;
+  }
+
+  .lg\:h-\[510px\] {
+    height: 510px;
+  }
+
+  .lg\:h-\[640px\] {
+    height: 640px;
   }
 
   .lg\:w-\[80\%\] {
@@ -1311,6 +1429,42 @@ video {
 
   .lg\:text-\[144px\] {
     font-size: 144px;
+  }
+
+  .lg\:text-\[104px\] {
+    font-size: 104px;
+  }
+
+  .lg\:text-\[140px\] {
+    font-size: 140px;
+  }
+
+  .lg\:text-\[145px\] {
+    font-size: 145px;
+  }
+
+  .lg\:text-\[150px\] {
+    font-size: 150px;
+  }
+
+  .lg\:text-\[160px\] {
+    font-size: 160px;
+  }
+
+  .lg\:text-\[170px\] {
+    font-size: 170px;
+  }
+
+  .lg\:text-\[165px\] {
+    font-size: 165px;
+  }
+
+  .lg\:text-\[166px\] {
+    font-size: 166px;
+  }
+
+  .lg\:text-\[167px\] {
+    font-size: 167px;
   }
 
   .lg\:leading-\[158\.4px\] {

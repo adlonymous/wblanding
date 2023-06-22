@@ -22,7 +22,7 @@ const Hero = () => (
             Bui
           </h1>
           <div className={styles.heroDText}>
-            D
+            
           </div>
           <h1 className={styles.heroHeading}>lers</h1>
         </motion.div>

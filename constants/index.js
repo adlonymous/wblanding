@@ -1,27 +1,27 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
+    imgUrl: '/techie1.jpg',
     title: 'Developer Profiles',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
+    imgUrl: '/techie2.jpg',
     title: 'Project Posts',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
+    imgUrl: '/techie3.jpg',
     title: 'Ecosystem Project Feeds',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
+    imgUrl: '/techie4.jpg',
     title: 'Community Feeds',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
+    imgUrl: '/techie5.jpg',
     title: 'Hackathon Feeds',
   },
 ];
@@ -74,16 +74,16 @@ export const socials = [
     url: '/twitter.svg',
     link: 'https://twitter.com/WannaBuidl',
   },
-  {
-    name: 'linkedin',
-    url: '/linkedin.svg',
-  },
-  {
-    name: 'instagram',
-    url: '/instagram.svg',
-  },
-  {
-    name: 'facebook',
-    url: '/facebook.svg',
-  },
+  // {
+  //   name: 'linkedin',
+  //   url: '/linkedin.svg',
+  // },
+  // {
+  //   name: 'instagram',
+  //   url: '/instagram.svg',
+  // },
+  // {
+  //   name: 'facebook',
+  //   url: '/facebook.svg',
+  // },
 ];

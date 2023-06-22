@@ -40,9 +40,9 @@ const Feedback = () => (
         className="relative flex-1 flex justify-center items-center"
       >
         <img
-          src="/planet-09.png"
+          src="/joey3.png"
           alt="planet-09"
-          className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
+          className="w-full lg:h-[640px] h-auto min-h-[230px] object-cover rounded-[40px]"
         />
 
         <motion.div
@@ -61,3 +61,5 @@ const Feedback = () => (
 );
 
 export default Feedback;
+
+//Image by <a href="https://www.freepik.com/free-vector/colourful-illustration-programmer-working_5483080.htm#query=software%20developer&position=3&from_view=search&track=ais">Freepik</a>
